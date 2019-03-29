@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+	.issue,.return
+	{
+		float:left;
+		margin:80px;
+		width:200px;
+		height:200px;
+		background-color:#999;
+		margin-top:150px;
+	}
+	.issue
+	{
+		margin-left:400px;
+	}
+	.issue button
+	{
+		margin:70px;
+	}
+	.return button
+	{
+		margin:70px;
+	}
+	.issue label
+	{
+		margin:70px;
+		margin-bottom:-100px;
+	}
+	.return label
+	{
+		margin:70px;
+		margin-bottom:-100px;
+	}
+	
+</style>
+</head>
+<body>
+	<div class="issue">
+    	<form action="home">
+    	<button type="submit">issue</button>
+        <br />
+		<input type="hidden" name="func" value="i"/>
+        <label>ISSUE</label>
+        </form>
+    </div>
+    <div class="return">
+    	<form action="home">
+    	<button type="submit">return</button>
+        <br />
+		<input type="hidden" name="func" value="r"/>
+        <label>RETURN</label>
+        </form>
+    </div>
+</body>
+</html>
